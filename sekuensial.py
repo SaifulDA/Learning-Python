@@ -13,3 +13,16 @@ print("alamat : ", alamat)
 # block code 
 for i in range(10):
     print(i)
+
+# one line code
+    x = 1
+    y = 2
+    
+    temp = x
+    x = y
+    y = temp
+
+    print("x:", x)
+    print("y:", y)
+
+    x, y = y, x # one line code
