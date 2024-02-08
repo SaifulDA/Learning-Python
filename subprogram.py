@@ -61,3 +61,14 @@ def add(a,b):
     return result
 bilanganPertama = add(20,10)
 print(bilanganPertama)
+
+# prosedur
+def greeting(name):
+    print("helo" + name + ", apa kabar ?")
+    return
+
+# example proseduur 2
+def greeting(name):
+    print("helo " + name + ", apa kabar ?")
+
+greeting("dico")
